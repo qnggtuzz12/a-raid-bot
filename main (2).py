@@ -98,5 +98,5 @@ async def on_guild_channel_create(channel):
         await channel.send(random.choice(SPAM_MESSAGE))
 
 
-
+bot.run('ur token')
 client.run(token, bot=True)
